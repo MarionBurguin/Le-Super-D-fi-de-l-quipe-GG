@@ -1,6 +1,8 @@
 # Le Super Défi de l'équipe GG
 ### Espace Naturel de la Motte
 
+Ce projet consiste à faire un site web spécialisé dans la photographie d'oiseaux, à l'occasion d'un concours, avec comme sujet : Espace naturel de la Motte.
+
 ## Ne pas oublier de faire des commits
 
 ### ✅ Liste à cocher des tâches
