@@ -9,6 +9,11 @@
 - [ ] Créer le dépôt GitHub
 - [ ] Inviter les membres de l'équipe
 - [ ] Définir et communiquer les 4 classes CSS
+    - [ ] .header
+    - [ ] .content
+    - [ ] .formulaire-concours
+    - [ ] .formulaire-vote
+    - [ ] .photo-card
 - [ ] Créer la structure de dossiers du projet
 - [ ] Rédiger le README avec les consignes
 - [ ] Valider/accepter les Pull Requests
@@ -18,6 +23,11 @@
 - [ ] Créer une page html d’accueil
 - [ ] Créer une page php pour le concours photo
 - [ ] Intégrer les 4 classes CSS dans les pages
+    - [ ] .header
+    - [ ] .content
+    - [ ] .formulaire-concours
+    - [ ] .formulaire-vote
+    - [ ] .photo-card
 - [ ] Créer le formulaire de soumission de photos
 - [ ] Créer le formulaire de vote
 - [ ] Tester les fonctionnalités PHP en local
