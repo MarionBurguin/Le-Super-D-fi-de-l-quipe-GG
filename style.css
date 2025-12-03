@@ -75,4 +75,22 @@ h1, h2 {
     transition: background-color 0.3s;
 }
 
-.bouton-classe-4:hover
+.bouton-classe-4:hover {
+    background-color: #ff6347; /* Rouge orangé au survol */
+}
+
+/* Styles pour les formulaires (améliore la lisibilité) */
+form label {
+    display: inline-block;
+    width: 120px;
+    margin-top: 10px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="file"] {
+    width: 60%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
