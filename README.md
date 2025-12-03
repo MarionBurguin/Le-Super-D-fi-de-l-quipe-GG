@@ -1,6 +1,8 @@
 # Le Super Défi de l'équipe GG
 ### Espace Naturel de la Motte
 
+Ce projet consiste à faire un site web spécialisé dans la photographie d'oiseaux, à l'occasion d'un concours, avec comme sujet : Espace naturel de la Motte.
+
 ## Ne pas oublier de faire des commits
 
 ### ✅ Liste à cocher des tâches
@@ -9,6 +11,11 @@
 - [ ] Créer le dépôt GitHub
 - [ ] Inviter les membres de l'équipe
 - [ ] Définir et communiquer les 4 classes CSS
+    - [ ] .header
+    - [ ] .content
+    - [ ] .formulaire-concours
+    - [ ] .formulaire-vote
+    - [ ] .photo-card
 - [ ] Créer la structure de dossiers du projet
 - [ ] Rédiger le README avec les consignes
 - [ ] Valider/accepter les Pull Requests
@@ -18,6 +25,11 @@
 - [ ] Créer une page html d’accueil
 - [ ] Créer une page php pour le concours photo
 - [ ] Intégrer les 4 classes CSS dans les pages
+    - [ ] .header
+    - [ ] .content
+    - [ ] .formulaire-concours
+    - [ ] .formulaire-vote
+    - [ ] .photo-card
 - [ ] Créer le formulaire de soumission de photos
 - [ ] Créer le formulaire de vote
 - [ ] Tester les fonctionnalités PHP en local
