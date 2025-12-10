@@ -8,8 +8,8 @@ Ce projet consiste à faire un site web spécialisé dans la photographie d'oise
 ### ✅ Liste à cocher des tâches
 
 #### 🧠 **Chef d’équipe**
-- [ ] Créer le dépôt GitHub
-- [ ] Inviter les membres de l'équipe
+- [x] Créer le dépôt GitHub
+- [x] Inviter les membres de l'équipe
 - [ ] Définir et communiquer les 4 classes CSS
     - [ ] .header
     - [ ] .content
@@ -22,8 +22,8 @@ Ce projet consiste à faire un site web spécialisé dans la photographie d'oise
 - [ ] Tester le site final avant merge
 
 #### 💻 **Développeur principal**
-- [ ] Créer une page html d’accueil
-- [ ] Créer une page php pour le concours photo
+- [x] Créer une page html d’accueil
+- [x] Créer une page php pour le concours photo
 - [ ] Intégrer les 4 classes CSS dans les pages
     - [ ] .header
     - [ ] .content
@@ -35,7 +35,7 @@ Ce projet consiste à faire un site web spécialisé dans la photographie d'oise
 - [ ] Tester les fonctionnalités PHP en local
 
 #### 🎨 **Développeur Créa**
-- [ ] Créer le fichier `style.css`
+- [x] Créer le fichier `style.css`
 - [ ] Créer un CSS définissant les classes dont les noms sont donnés par Marion (cheffe d'équipe)
 - [ ] Trouver des photos d'oiseaux libres de droits (min. 5)
 - [ ] Tester le rendu
