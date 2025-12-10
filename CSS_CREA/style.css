@@ -94,3 +94,379 @@ form input[type="file"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+
+
+
+
+
+
+
+/* ==============================================
+   CSS pour la page PHP du Concours Photo
+   Thème : "Nature Sereine & Interface Moderne"
+   ============================================== */
+
+/* Variables CSS pour une cohérence globale */
+:root {
+    --vert-foret: #006400;
+    --vert-foret-fonce: #004d00;
+    --vert-foret-clair: #228b22;
+    --vert-menthe: #98fb98;
+    --bleu-acier: #4682b4;
+    --bleu-acier-clair: #5a9bd3;
+    --orange-vif: #ff8c00;
+    --orange-terracotta: #e07a5f;
+    --rouge-tomate: #ff6347;
+    --vert-succes: #2e8b57;
+    --blanc-casse: #fffaf0;
+    --blanc-creme: #f9f7f2;
+    --gris-clair: #f4f4f4;
+    --gris-moyen: #e8e8e8;
+    --gris-bordure: #d4d4d4;
+    --texte-fonce: #2d3748;
+    --texte-moyen: #4a5568;
+    --ombre-legere: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --ombre-moyenne: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --transition-standard: all 0.3s ease;
+    --bordure-radius: 10px;
+    --bordure-radius-petit: 6px;
+}
+
+/* Reset et styles de base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background: linear-gradient(135deg, var(--gris-clair) 0%, var(--blanc-creme) 100%);
+    color: var(--texte-fonce);
+    min-height: 100vh;
+    padding-bottom: 40px;
+    background-attachment: fixed;
+}
+
+/* Amélioration de la typographie */
+h1, h2, h3, h4 {
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 0;
+}
+
+h1 {
+    color: var(--vert-foret-fonce);
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h1::after {
+    content: '📸';
+    margin-left: 10px;
+    font-size: 2.2rem;
+}
+
+h2 {
+    color: var(--vert-foret);
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--vert-menthe);
+}
+
+p {
+    margin-bottom: 1.2rem;
+    color: var(--texte-moyen);
+}
+
+small {
+    color: var(--texte-moyen);
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Header amélioré */
+.header-classe-1 {
+    background: linear-gradient(135deg, var(--vert-foret-fonce) 0%, var(--vert-foret-clair) 100%);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 5px solid var(--orange-vif);
+    box-shadow: var(--ombre-moyenne);
+    margin-bottom: 30px;
+}
+
+.header-classe-1 p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+/* Main container */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Sections améliorées */
+.section-classe-3 {
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 1px solid var(--gris-bordure);
+    border-radius: var(--bordure-radius);
+    background-color: white;
+    box-shadow: var(--ombre-legere);
+    transition: var(--transition-standard);
+}
+
+.section-classe-3:hover {
+    box-shadow: var(--ombre-moyenne);
+    transform: translateY(-2px);
+}
+
+/* Séparateur */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--vert-menthe), transparent);
+    margin: 40px auto;
+    width: 80%;
+}
+
+/* Liens améliorés */
+.lien-classe-2 {
+    display: inline-block;
+    color: var(--bleu-acier);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 2px solid var(--bleu-acier);
+    border-radius: var(--bordure-radius-petit);
+    transition: var(--transition-standard);
+    background-color: white;
+    margin: 10px 0;
+}
+
+.lien-classe-2:hover {
+    background-color: var(--bleu-acier);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(70, 130, 180, 0.3);
+}
+
+/* Boutons améliorés */
+.bouton-classe-4 {
+    background: linear-gradient(135deg, var(--orange-vif) 0%, var(--orange-terracotta) 100%);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: var(--bordure-radius-petit);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: var(--transition-standard);
+    box-shadow: 0 4px 6px rgba(255, 140, 0, 0.2);
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.bouton-classe-4:hover {
+    background: linear-gradient(135deg, var(--orange-terracotta) 0%, var(--rouge-tomate) 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(255, 140, 0, 0.3);
+}
+
+.bouton-classe-4:active {
+    transform: translateY(-1px);
+}
+
+/* Formulaires améliorés */
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--blanc-casse);
+    border-radius: var(--bordure-radius);
+    border: 1px solid var(--gris-moyen);
+}
+
+form label {
+    display: inline-block;
+    width: 200px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: var(--vert-foret-fonce);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="file"] {
+    width: calc(100% - 220px);
+    padding: 12px;
+    margin-top: 8px;
+    border: 2px solid var(--gris-bordure);
+    border-radius: var(--bordure-radius-petit);
+    font-size: 1rem;
+    transition: var(--transition-standard);
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="file"]:focus {
+    outline: none;
+    border-color: var(--bleu-acier);
+    box-shadow: 0 0 0 3px rgba(70, 130, 180, 0.2);
+}
+
+/* Radio buttons améliorés */
+form div {
+    margin: 12px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: var(--bordure-radius-petit);
+    border: 1px solid var(--gris-moyen);
+    transition: var(--transition-standard);
+}
+
+form div:hover {
+    background-color: var(--blanc-casse);
+    border-color: var(--bleu-acier);
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+form input[type="radio"]:checked + label {
+    color: var(--vert-foret);
+    font-weight: 600;
+}
+
+/* Messages de feedback PHP */
+p[style*="color: red"] {
+    background-color: rgba(255, 99, 71, 0.1);
+    border-left: 4px solid var(--rouge-tomate);
+    padding: 15px;
+    border-radius: var(--bordure-radius-petit);
+    margin: 20px 0;
+}
+
+p[style*="color: green"] {
+    background-color: rgba(46, 139, 87, 0.1);
+    border-left: 4px solid var(--vert-succes);
+    padding: 15px;
+    border-radius: var(--bordure-radius-petit);
+    margin: 20px 0;
+}
+
+p[style*="color: orange"] {
+    background-color: rgba(255, 140, 0, 0.1);
+    border-left: 4px solid var(--orange-vif);
+    padding: 15px;
+    border-radius: var(--bordure-radius-petit);
+    margin: 20px 0;
+}
+
+/* Style pour les règles du concours */
+strong {
+    color: var(--vert-foret-fonce);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: var(--texte-moyen);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--gris-moyen);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        padding: 0 15px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .section-classe-3 {
+        padding: 20px;
+    }
+    
+    form label {
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="file"] {
+        width: 100%;
+    }
+    
+    .header-classe-1 {
+        padding: 20px 15px;
+    }
+    
+    .lien-classe-2, 
+    .bouton-classe-4 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Animation subtile pour les sections */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-classe-3 {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+#vote-concours {
+    animation-delay: 0.1s;
+}
+
+/* Style pour l'emoji dans le header */
+h1::after {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+/* Amélioration du bouton de retour */
+.header-classe-1 .lien-classe-2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: white;
+    color: white;
+    margin-top: 20px;
+}
+
+.header-classe-1 .lien-classe-2:hover {
+    background-color: white;
+    color: var(--vert-foret-fonce);
+}
