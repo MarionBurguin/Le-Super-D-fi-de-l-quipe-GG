@@ -36,9 +36,9 @@ Ce projet consiste à faire un site web spécialisé dans la photographie d'oise
 
 #### 🎨 **Développeur Créa**
 - [x] Créer le fichier `style.css`
-- [ ] Créer un CSS définissant les classes dont les noms sont donnés par Marion (cheffe d'équipe)
-- [ ] Trouver des photos d'oiseaux libres de droits (min. 5)
-- [ ] Tester le rendu
+- [x] Créer un CSS définissant les classes dont les noms sont donnés par Marion (cheffe d'équipe)
+- [x] Trouver des photos d'oiseaux libres de droits (min. 5)
+- [x] Tester le rendu
 
 #### 🚀 **Hébergeur**
 - [ ] Héberger le site en local pour le tester
