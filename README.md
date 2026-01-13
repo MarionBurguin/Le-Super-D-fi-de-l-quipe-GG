@@ -10,16 +10,16 @@ Ce projet consiste à faire un site web spécialisé dans la photographie d'oise
 #### 🧠 **Chef d’équipe**
 - [x] Créer le dépôt GitHub
 - [x] Inviter les membres de l'équipe
-- [ ] Définir et communiquer les 4 classes CSS
-    - [ ] .header
-    - [ ] .content
-    - [ ] .formulaire-concours
-    - [ ] .formulaire-vote
-    - [ ] .photo-card
-- [ ] Créer la structure de dossiers du projet
-- [ ] Rédiger le README avec les consignes
-- [ ] Valider/accepter les Pull Requests
-- [ ] Tester le site final avant merge
+- [x] Définir et communiquer les 4 classes CSS
+    - [x] .header
+    - [x] .content
+    - [x] .formulaire-concours
+    - [x] .formulaire-vote
+    - [x] .photo-card
+- [x] Créer la structure de dossiers du projet
+- [x] Rédiger le README avec les consignes
+- [x] Valider/accepter les Pull Requests
+- [x] Tester le site final avant merge
 
 #### 💻 **Développeur principal**
 - [x] Créer une page html d’accueil
