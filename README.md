@@ -24,15 +24,15 @@ Ce projet consiste à faire un site web spécialisé dans la photographie d'oise
 #### 💻 **Développeur principal**
 - [x] Créer une page html d’accueil
 - [x] Créer une page php pour le concours photo
-- [ ] Intégrer les 4 classes CSS dans les pages
-    - [ ] .header
-    - [ ] .content
-    - [ ] .formulaire-concours
-    - [ ] .formulaire-vote
-    - [ ] .photo-card
-- [ ] Créer le formulaire de soumission de photos
-- [ ] Créer le formulaire de vote
-- [ ] Tester les fonctionnalités PHP en local
+- [x] Intégrer les 4 classes CSS dans les pages
+    - [x] .header
+    - [x] .content
+    - [x] .formulaire-concours
+    - [x] .formulaire-vote
+    - [x] .photo-card
+- [x] Créer le formulaire de soumission de photos
+- [x] Créer le formulaire de vote
+- [x] Tester les fonctionnalités PHP en local
 
 #### 🎨 **Développeur Créa**
 - [x] Créer le fichier `style.css`
