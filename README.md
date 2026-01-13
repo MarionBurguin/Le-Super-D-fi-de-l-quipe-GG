@@ -41,12 +41,12 @@ Ce projet consiste à faire un site web spécialisé dans la photographie d'oise
 - [x] Tester le rendu
 
 #### 🚀 **Hébergeur**
-- [ ] Héberger le site en local pour le tester
-- [ ] Créer la base de données
-- [ ] Créer les tables `photos` et `votes`
-- [ ] Exporter la structure dans `database.sql`
-- [ ] Tester la connexion à la BDD depuis PHP
-- [ ] (Bonus) Héberger le site sur alwaysdata
+- [x] Héberger le site en local pour le tester
+- [x] Créer la base de données
+- [x] Créer les tables `photos` et `votes`
+- [x] Exporter la structure dans `database.sql`
+- [x] Tester la connexion à la BDD depuis PHP
+- [x] (Bonus) Héberger le site sur alwaysdata
 - [ ] (Bonus) Migrer la base de données en ligne
 
 ### 📋 **Tâches communes**
